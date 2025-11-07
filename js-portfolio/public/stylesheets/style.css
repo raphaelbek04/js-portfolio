@@ -1,0 +1,15 @@
+:root {
+  --radius: 1rem;
+}
+
+img.rounded-4 { border-radius: var(--radius) !important; }
+.card { border-radius: var(--radius); }
+.btn { border-radius: .75rem; }
+
+.navbar-brand { letter-spacing: .5px; }
+.badge { border-radius: .6rem; }
+
+a:focus-visible, button:focus-visible {
+  outline: 3px solid rgba(13,110,253,.5);
+  outline-offset: 2px;
+}
