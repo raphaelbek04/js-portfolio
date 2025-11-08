@@ -1,0 +1,52 @@
+# Raphael Bekele — Personal Portfolio Website
+
+This project is my personal portfolio site built using **Node.js**, **Express.js**, and **EJS** templating.  
+It showcases my work, background, and contact information in a modern, minimal design inspired by Apple’s website aesthetic.
+
+---
+
+## live demo
+View Portfolio on Render: https://js-portfolio-fmq6.onrender.com
+
+---
+
+- **Backend:** Node.js, Express.js  
+- **Frontend:** EJS (Embedded JavaScript templates), Bootstrap 5, Font Awesome  
+- **Styling:** Custom CSS (`public/stylesheets/style.css`)  
+- **Hosting:** Render  
+- **Version Control:** Git & GitHub
+
+---
+
+##  Project Structure
+-js-portfolio/
+-- app.js # Main server file (Express app)
+--bin/www # Server start script
+--package.json # Node project metadata
+--public/
+images/ # Profile and asset images
+javascripts/ # Client-side JS files
+ stylesheets/ # CSS styles (main: style.css)
+routes/
+index.js # Express routes for all pages
+views/
+layout.ejs # Shared layout (header, footer)
+home.ejs # Homepage
+ about.ejs # About Me page
+ projects.ejs # Projects page
+ contact.ejs # Contact page
+ error.ejs # Error view (404 / server errors)
+
+
+---
+
+## Installation & Setup
+
+### Clone repository
+git clone https://github.com/raphaelbek04/js-portfolio.git
+cd js-portfolio
+
+
+ npm install
+
+ npm start
